@@ -1,0 +1,56 @@
+{
+    "mylist1":[
+
+        {
+            "id":"1",
+            "name":"James"
+        },
+
+        {
+            "id":"2",
+            "name":"Sarah"
+        },
+
+        {
+            "id":"3",
+            "name":"Nitish"
+        },
+
+        {
+            "id":"4",
+            "name":"Sam"
+        },
+
+        {
+            "id":"5",
+            "name":"Shweta"
+        },
+
+        {
+            "id":"6",
+            "name":"Mohit"
+        },
+
+        {
+            "id":"7",
+            "name":"Jacob"
+        },
+
+        {
+            "id":"8",
+            "name":"Aarthi"
+        },
+
+        {
+            "id":"9",
+            "name":"Clara"
+        },
+
+        {
+            "id":"10",
+            "name":"Mohan"
+        }
+
+
+    ]
+}

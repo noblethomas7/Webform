@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>STUDENT DETAILS FORM</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <div class="container-lg">
+            <div class="text-center">
+                <br>
+                <h2>Student Details Form</h2>
+                <p class="lead">Questions to ask? Fill out the form to contact us!</p>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-lg-6">
+                    <form onSubmit="saveFile()" name="webform" class="mt-1 border p-5 pb-4 bg-light shadow" >
+                        <div>
+                            <label for="mylist1" class="form-label">Name of the Student:</label>
+                                <select required id="mylist1" name="STUDENT" class="form-select">
+                                    <option value="">--Name--</option>
+                                </select>
+                            <br>
+                            <label for="mylist2" class="form-label">Roll Number:</label>
+                            <select required id="mylist2" name="ROLL_NO" class="form-select">
+                                <option value="">--Roll No--</option>
+                            </select>
+                            <br>
+                            <label for="mylist3" class="form-label">State/UT:</label>
+                            <select required id="mylist3" name="STATE" class="form-select">
+                                <option value="">--State--</option>
+                            </select>
+                            <br>
+                            <div class="mb-4 text-center">
+                                <input type="Submit" value="Submit" name="Submit" class="btn btn-secondary">
+                                <input type="Reset" value="Reset" name="Reset" class="btn btn-secondary">
+                            </div>
+                            <div class="mb-4 text-center">
+                                <small>&copy; IoTEDU</small>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>     
+    </body>
+</html>

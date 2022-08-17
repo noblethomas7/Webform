@@ -31,20 +31,6 @@ $.getJSON('states.json', function(data) {
 });
 
 
-        
-// function show1(){
-//     var mylist1 = document.getElementById("mylist1")
-//     document.getElementById("STUDENT").value = mylist1.options[mylist1.selectedIndex].text;
-//     }
-// function show2(){
-//     var mylist2 = document.getElementById("mylist2")
-//     document.getElementById("ROLL_NO").value = mylist2.options[mylist2.selectedIndex].text;
-//     }
-// function show3(){
-//     var mylist3 = document.getElementById("mylist3")
-//     document.getElementById("STATE").value = mylist3.options[mylist3.selectedIndex].text;
-//     }
-
 let saveFile = () => {
     	
     // Get the data from each element on the form.
